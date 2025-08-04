@@ -30,7 +30,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mr-3">
-              <span className="text-white font-bold text-xl">GB</span>
+              <img src="./img/logo.png" alt="logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-primary">Green Bangla</h1>
