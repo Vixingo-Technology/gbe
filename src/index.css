@@ -2,53 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Construction Equipment Rental Design System */
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 13% 18%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 13% 18%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 13% 18%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    /* Construction Industry Primary Colors */
-    --primary: 210 85% 45%;
-    --primary-foreground: 0 0% 100%;
-    --primary-dark: 210 85% 35%;
-    
-    /* Construction Green Accent */
-    --secondary: 120 60% 45%;
-    --secondary-foreground: 0 0% 100%;
-    --secondary-light: 120 45% 55%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 120 25% 95%;
-    --accent-foreground: 120 60% 25%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 210 85% 45%;
-
-    /* Construction Theme Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(210 85% 45%), hsl(210 85% 35%));
-    --gradient-section: linear-gradient(180deg, hsl(210 10% 98%), hsl(210 15% 95%));
-    
-    /* Equipment Grid Background */
-    --equipment-bg: 210 20% 98%;
-    --equipment-card: 0 0% 100%;
-    
-    /* Professional Shadows */
-    --shadow-card: 0 4px 6px -1px hsl(210 85% 45% / 0.1);
-    --shadow-equipment: 0 8px 25px -5px hsl(210 85% 45% / 0.15);
+    --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
 
