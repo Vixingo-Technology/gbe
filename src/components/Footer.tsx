@@ -9,8 +9,12 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold">GB</span>
+              <div className="w-12 h-12 rounded-lg flex items-center justify-center mr-3">
+                <img
+                  src="./img/logo.png"
+                  alt="Green Bangla Equipment Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-lg font-bold">Green Bangla</h3>
