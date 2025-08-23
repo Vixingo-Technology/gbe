@@ -20,7 +20,7 @@ const ContactSection = () => {
                     {/* Map */}
                     <div className="relative">
                      {/* Contact Form */}
-                <div className="mb-16 bg-grey">
+                <div className="mb-16 ">
                     <ContactForm />
                 </div>
                         
