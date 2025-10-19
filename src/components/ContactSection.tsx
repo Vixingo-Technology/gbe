@@ -14,16 +14,14 @@ const ContactSection = () => {
                     <div className="w-24 h-1 bg-secondary mx-auto rounded-full"></div>
                 </div>
 
-               
-
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     {/* Map */}
                     <div className="relative">
-                     {/* Contact Form */}
-                <div className="mb-16 ">
-                    <ContactForm />
-                </div>
-                        
+                        {/* Contact Form */}
+                        <div className="mb-16 ">
+                            <ContactForm />
+                        </div>
+
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1131288.8692543032!2d90.33415531402672!3d24.055521395421817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375401000ff35d77%3A0x7c3db0aeac1d44b8!2sGreen%20Bangla%20Equipment!5e0!3m2!1sen!2sbd!4v1754372608181!5m2!1sen!2sbd"
                             width="400"
@@ -49,7 +47,7 @@ const ContactSection = () => {
                                         Email: info@greenbanglaequipment.com
                                     </p>
                                     <p className="text-muted-foreground">
-                                        Phone: +880-1234-567890
+                                        Phone: +880 1783-790931
                                     </p>
                                 </div>
                             </div>
@@ -63,14 +61,14 @@ const ContactSection = () => {
                                         Head Office
                                     </h3>
                                     <p className="text-muted-foreground mb-2">
-                                        123 Business District
+                                        446, Shaheen bagh
                                         <br />
-                                        Dhaka - 1000
+                                        Dhaka
                                         <br />
                                         Bangladesh
                                     </p>
                                     <p className="text-muted-foreground">
-                                        Phone: +880-2-123-4567
+                                        Phone: +880 1783-790931
                                     </p>
                                 </div>
                             </div>
