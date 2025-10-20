@@ -41,11 +41,11 @@ const Header = () => {
                     <div className="flex items-center gap-6">
                         <div className="flex items-center gap-2">
                             <Phone className="w-4 h-4" />
-                            <span>+880-1234-567890</span>
+                            <span>+8801783-790931</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4" />
-                            <span>Dhaka, Bangladesh</span>
+                            <span>446 Shaheen bagh, Dhaka</span>
                         </div>
                     </div>
                     <div className="hidden md:block">
@@ -155,11 +155,11 @@ const Header = () => {
                 }`}
             >
                 {/* Blur Background */}
-                <div 
+                <div
                     className="absolute inset-0 bg-black/50 backdrop-blur-sm"
                     onClick={closeMobileMenu}
                 ></div>
-                
+
                 {/* Close Button - Same position as menu button */}
                 <div className="absolute top-4 right-4 z-[60]">
                     <Button
@@ -177,10 +177,12 @@ const Header = () => {
                     <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-8 mx-4 w-full max-w-sm">
                         <div className="space-y-0">
                             <div className="text-center mb-8">
-                                <h2 className="text-2xl font-bold text-foreground">Menu</h2>
+                                <h2 className="text-2xl font-bold text-foreground">
+                                    Menu
+                                </h2>
                                 <div className="w-16 h-1 bg-secondary mx-auto mt-2 rounded-full"></div>
                             </div>
-                            
+
                             <a
                                 href="#home"
                                 className="block py-4 text-lg text-foreground hover:text-primary transition-colors font-medium text-center border-b border-gray-200"
@@ -229,7 +231,9 @@ const Header = () => {
                                     closeMobileMenu();
                                     document
                                         .getElementById("contact")
-                                        ?.scrollIntoView({ behavior: "smooth" });
+                                        ?.scrollIntoView({
+                                            behavior: "smooth",
+                                        });
                                 }}
                             >
                                 Get Quote
